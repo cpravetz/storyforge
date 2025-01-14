@@ -1,0 +1,22 @@
+{
+  "name": "sf_backend",
+  "version": "1.0.0",
+  "description": "The backend of our storyforge application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Pravetz",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
+  }
+}
